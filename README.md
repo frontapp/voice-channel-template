@@ -57,5 +57,8 @@ from Front are prefixed with `/front`. Each route declaration contains a detaile
 ### `front_connector.ts`
 This file contains utility functions for making requests to Front's API from your channel, such as creating new voice calls, updating the call status, or adding call assets to a conversation.
 
+### `plugin_routes.ts` and `public` directory
+These files render a Front sidebar plugin that displays incoming call notifications and allows Front teammates to open the sidebar to accept the call and manage the call lifecycle from there.
+
 ### Further reading
 Refer to our [in-depth tutorial](https://dev.frontapp.com/docs/getting-started-with-application-voice-channels) for a detailed walkthrough of this project and how you can use it to facilitate the development of a Front voice channel integration.
